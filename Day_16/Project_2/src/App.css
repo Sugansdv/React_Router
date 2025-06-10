@@ -1,0 +1,37 @@
+.navbar-brand, .custom-nav {
+  color: rgb(27, 139, 135) !important; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.navbar {
+  background-color: rgb(236, 209, 176);
+}
+
+.custom-nav:hover {
+  color: darkblue !important;
+}
+
+.active-link {
+  color: blue !important;      
+  text-decoration: underline;  
+}
+
+body{
+  margin-top: 80px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;     
+  border: 8px solid #007bff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+form button {
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  padding: 10px 30px;
+}
