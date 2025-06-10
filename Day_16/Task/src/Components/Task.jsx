@@ -23,6 +23,16 @@ export default function Task() {
           <code>npm install react-router-dom</code>
         </p>
       </div>
+      <h5>Task 3. BrowserRouter Setup: in App.jsx</h5>
+      <h5>Task 6. Exact Path Usage: Use the exact attribute to ensure the correct route is matched  : included in App.jsx</h5>
+      <h5> Task 7. Default Route (Redirect to Home): Set up a default route that redirects to
+the Home page.
+</h5>
+<h5>Task 9. Active Link Styling: Apply active styling to the currently selected link using
+NavLink.</h5>
+<h5>Task 12.Navigation Bar Component: Create a reusable Navbar component with
+links to different pages: imported in App.jsx</h5>
     </div>
+    
   );
 }

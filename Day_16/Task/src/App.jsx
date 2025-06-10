@@ -9,6 +9,7 @@ import GoToTask from './Components/GoToTask';
 import Protected from './Components/Protected';
 import Team from './Components/Team';        
 import Company from './Components/Company';
+import { Navigate } from 'react-router-dom';
 import './App.css';
 
 export default function App() {
@@ -18,9 +19,8 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-         {/* ✅ Parent Route */}
+        <Route path="/home" element={<Navigate to="/" />} />
         <Route path="/about" element={<About />}>
-          {/* ✅ Nested Routes */}
           <Route path="team" element={<Team />} />
           <Route path="company" element={<Company />} />
         </Route>
@@ -28,6 +28,7 @@ export default function App() {
         <Route path="*" element={<NotFound />} /> 
         <Route path="/gototask" element={<GoToTask />} />
         <Route path="/protected" element={<Protected />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );
