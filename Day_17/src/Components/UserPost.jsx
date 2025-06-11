@@ -22,7 +22,7 @@ const UserPost = () => {
       <h3>User {id}'s Posts</h3>  {/* Task 4: Display Route Parameter */}
       <ul>
         {posts.slice(0, 5).map(post => (
-          <li key={post.id}>{post.title}</li>  {/* Task 12: Filter Data Based on Route Parameter */}
+          <li key={post.id}>{post.title}</li>  /* Task 12: Filter Data Based on Route Parameter */
         ))}
       </ul>
     </div>
