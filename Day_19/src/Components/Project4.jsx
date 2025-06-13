@@ -6,7 +6,7 @@ const ThemedBox = ({ theme }) => {
   return (
     <div>
       <h3>Current Theme: {theme.toUpperCase()}</h3>
-      <p>This component is wrapped with a {theme} theme!</p>
+      <p>This Box is wrapped with a {theme} theme!</p>
     </div>
   );
 };
