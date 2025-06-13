@@ -1,4 +1,3 @@
-// src/components/Task7.jsx
 import React from 'react';
 import withLoading from '../hoc/withLoading';
 

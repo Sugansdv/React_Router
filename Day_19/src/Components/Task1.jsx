@@ -1,4 +1,3 @@
-// src/components/Task1.jsx
 import React from 'react';
 
 const Task1 = () => {
