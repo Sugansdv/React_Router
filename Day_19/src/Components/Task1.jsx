@@ -24,7 +24,7 @@ Components are and their benefits. </h3>
       <ul>
         <li><strong>Code Reusability</strong> – Share logic like authentication, logging, or styling without duplicating code.</li>
         <li><strong>Separation of Concerns</strong> – Keeps UI components clean by offloading logic.</li>
-        <li><strong>Enhanced Composition</strong> – You can stack multiple HOCs together for advanced behaviors.</li>
+        <li><strong>Enhanced Composition</strong> – stack multiple HOCs together for advanced behaviors.</li>
         <li><strong>Maintainability</strong> – Makes your app easier to scale and debug.</li>
       </ul>
 
